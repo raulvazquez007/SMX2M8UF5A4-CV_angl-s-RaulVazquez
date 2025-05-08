@@ -72,6 +72,7 @@ main {
   margin-bottom: 1em;
   font-size: 2.2em;
   color: #000;
+  
 }
 
 .presentation img {
@@ -86,6 +87,7 @@ main {
 .presentation p {
   font-size: 1.1em;
   margin-bottom: 1.5em;
+  text-align: justify;
 }
 
 .presentation iframe {
