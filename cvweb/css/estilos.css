@@ -25,7 +25,6 @@ body {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -33,8 +32,6 @@ body {
 .menu .right {
   display: flex;
   gap: 20px;
-  margin-right: -25%;
-  margin-left: -25%;
 }
 
 .menu ul li a {
@@ -186,14 +183,14 @@ footer a:hover {
 /* RESPONSIVE */
 @media (max-width: 600px) {
   .menu ul {
-    flex-direction: column;
+    flex-direction: 4 column;
     align-items: center;
     gap: 10px;
   }
 
   .menu .left,
   .menu .right {
-    flex-direction: column;
+    flex-direction: 4 column;
     align-items: center;
     gap: 10px;
     margin: 0;
