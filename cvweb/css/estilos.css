@@ -179,6 +179,36 @@ footer a:hover {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.experience-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+  gap: 30px;
+  flex-wrap: wrap; /* Esto evita desbordamiento en pantallas pequeñas */
+}
+
+.experience-block .text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.experience-block .image {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.experience-block .image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
 
 /* RESPONSIVE */
 @media (max-width: 600px) {
